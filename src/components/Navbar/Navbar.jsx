@@ -65,13 +65,13 @@ function Navbar() {
                 <Link
                   to="/header"
                   onClick={() => handleScrollToSection('header')}
-                  className={`relative pe-7 py-2 rounded-md text-md font-medium transition-colors duration-200
+                  className={`relative px-7 py-2 rounded-md text-md font-medium transition-colors duration-200 text-center
                     ${activeLink === 'header' ? 'text-[#0D6EFD]' : 'text-gray-500'}
                     group`}
                 >
                   الرئيسية
                   <span
-                    className={`absolute right-0 bottom-0 h-0.5 bg-[#0D6EFD] transition-all duration-300
+                    className={`absolute right-0 bottom-0 h-0.5 bg-[#0D6EFD] transition-all duration-300 text-center
                       ${activeLink === '/header' ? 'w-full' : 'w-0'} group-hover:w-full`}
                     style={{ transitionProperty: 'width' }}
                   ></span>
@@ -132,8 +132,8 @@ function Navbar() {
               >
                 {label}
                 <span
-                  className={`absolute right-0 bottom-0 h-0.5 bg-[#0D6EFD] transition-all duration-300
-                    ${activeLink === path ? 'w-full' : 'w-0'} group-hover:w-full`}
+                  className={`absolute right-0 bottom-0 h-0.5 bg-[#0D6EFD] transition-all duration-300 
+                    ${activeLink === path ? 'w-80' : 'w-0'} group-hover:w-80`}
                   style={{ transitionProperty: 'width' }}
                 ></span>
               </Link>
