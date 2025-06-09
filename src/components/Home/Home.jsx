@@ -24,16 +24,18 @@ function Home({ className, ...rest }) {
                     <h1 className='font-bold text-4xl text-white py-2'>جرب طوعني</h1>
                     <p className='text-2xl text-white'>موجود على كل الأجهزة عشان تقدر تتطوع وانت في أي مكان</p>
                 </div>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5'>
+                <div className=' w-full flex flex-col-reverse md:flex-row lg:flex-row justify-end items-center gap-5'>
+            
+
                     <a href="https://taw3ny.vercel.app"
                     target="_blank">
-                    <button className='bg-neutral-900 text-white px-3.5 py-2 my-4 text-2xl rounded-3xl hover:cursor-pointer'>الموقع <i className="fa-solid fa-globe"></i></button>
-                    </a>
-                    <a href="https://drive.google.com/drive/folders/16KFWlQ4GnfuLmX6a6AdBFy2whdvfeFjL?usp=sharing"
-                    target="_blank">
-                    <button className='bg-white px-3.5 py-2 text-2xl rounded-3xl hover:cursor-pointer'>تطبيق الموبايل <i className="fa-solid fa-mobile-screen-button"></i></button>
+                    <button className='bg-neutral-900 text-white px-3.5 py-2 text-xl rounded-3xl hover:cursor-pointer'>الموقع <i className="fa-solid fa-globe"></i></button>
                     </a>
 
+                    <a href="https://drive.google.com/drive/folders/16KFWlQ4GnfuLmX6a6AdBFy2whdvfeFjL?usp=sharing"
+                    target="_blank">
+                    <button className='bg-white px-3.5 py-2 text-xl rounded-3xl hover:cursor-pointer'>تطبيق الموبايل <i className="fa-solid fa-mobile-screen-button"></i></button>
+                    </a>
                 </div>   
             </div>
         
