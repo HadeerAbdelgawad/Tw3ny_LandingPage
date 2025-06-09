@@ -49,9 +49,9 @@ function About({ className, ...rest }) {
 
                         <div className='text-xl '>
                             <ul>
-                                <li className='py-2'> سهولة التسجيل والاستخدام<span className='bg-[#0D6EFD] text-white py-0.5 px-2 mx-2 rounded-full'><i className="fa-solid fa-check"></i></span></li>
-                                <li className='py-2'>ربط فوري مع المؤسسات المناسبة<span className='bg-[#0D6EFD] text-white py-0.5 px-2 mx-2 rounded-full'><i className="fa-solid fa-check"></i></span></li>
-                                <li className='py-2'>متابعة تقدمك ومجهودك بشكل مستمر <span className='bg-[#0D6EFD] text-white py-0.5 px-2 mx-2 rounded-full'><i className="fa-solid fa-check"></i></span></li>
+                                <li className='py-2'> سهولة التسجيل والاستخدام<span className='bg-[#0D6EFD] text-white py-1 px-2 mx-2 rounded-full'><i className="fa-solid fa-check"></i></span></li>
+                                <li className='py-2'>ربط فوري مع المؤسسات المناسبة<span className='bg-[#0D6EFD] text-white py-1 px-2 mx-2 rounded-full'><i className="fa-solid fa-check"></i></span></li>
+                                <li className='py-2'>متابعة تقدمك ومجهودك بشكل مستمر <span className='bg-[#0D6EFD] text-white py-1 px-2 mx-2 rounded-full'><i className="fa-solid fa-check"></i></span></li>
                             </ul>
                         </div>
                     </div>
