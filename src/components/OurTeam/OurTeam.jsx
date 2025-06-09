@@ -49,7 +49,7 @@ function OurTeam({ className, ...rest }) {
             {team.slice(0, 4).map((member, i) => (
               <div
                 key={member.name}
-                className="bg-white rounded-2xl shadow-lg flex flex-col items-center p-6 w-80 group transition-transform duration-500 hover:-translate-y-3 hover:scale-105 hover:shadow-2xl animate-fadeInUp"
+                className="bg-white rounded-2xl shadow-lg flex flex-col items-center p-5 w-70 group transition-transform duration-500 hover:-translate-y-3 hover:scale-105 hover:shadow-2xl animate-fadeInUp"
                 style={{ animationDelay: `${i * 0.1 + 0.1}s` }}
               >
                 <img
@@ -67,7 +67,7 @@ function OurTeam({ className, ...rest }) {
             {team.slice(4).map((member, i) => (
               <div
                 key={member.name}
-                className="bg-white rounded-2xl shadow-lg flex flex-col items-center p-6 w-80 group transition-transform duration-500 hover:-translate-y-3 hover:scale-105 hover:shadow-2xl animate-fadeInUp"
+                className="bg-white rounded-2xl shadow-lg flex flex-col items-center p-6 w-70 group transition-transform duration-500 hover:-translate-y-3 hover:scale-105 hover:shadow-2xl animate-fadeInUp"
                 style={{ animationDelay: `${(i + 4) * 0.1 + 0.1}s` }}
               >
                 <img
